@@ -194,6 +194,8 @@ console.log(newages);
 
 
 // 26.아래 배열에 중복된 값이 있는지 확인하는 코드를 작성하세요. -17번
+// includes 이용
+// Set메소드를 이용하는 방법도 알아볼것
 const numbers4 = [1, 2, 3, 4, 2, 5];
 function newnumbers4(num) {
   for (let i = 0; i <num.length; i++) {
