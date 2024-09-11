@@ -176,7 +176,7 @@ console.log(newproducts);
 
 // 24.numbers 배열의 모든 요소가 짝수인지 확인하세요.
 const numbers3 = [2, 4, 6, 8];
-const newnumbers3 = numbers3.every(function(num){
+numbers3.every(function(num){
   if (num % 2 === 0) {
     console.log(num + '는 짝수입니다.');
   }else {
