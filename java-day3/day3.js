@@ -212,9 +212,14 @@ const people1 = [
   { name: "Jane", age: 25 },
   { name: "Mark", age: 35 }
 ];
+//방법 1.
 people1.sort((a, b) => a.age - b.age);
-
 console.log(people1)
+// 방법 2.
+// const newpeople1 = people1.sort((a, b) => {
+//   return a.age - b.age;
+// });
+// console.log(newpeople1)
 
 
 // 28.ages 배열에서 21세 이상의 요소의 인덱스를 찾으세요.
