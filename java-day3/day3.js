@@ -16,7 +16,7 @@ console.log(car.brand, car.model, car.year);
 const person1 = {
   name: "Alice",
   sayHello: function() {
-    console.log(`"Hello, I am  this.name "`);
+    console.log(`"Hello, I am  ${this.name} "`);
   }
 };
 person1.sayHello();
