@@ -203,7 +203,7 @@ function newnumbers4(num) {
       console.log('중복이 있습니다.');
       return 
     } 
-  }console.log('즁복이 없습니다.'); 
+  }console.log('중복이 없습니다.'); 
 }
 newnumbers4(numbers4);
 
@@ -235,7 +235,7 @@ console.log(newages2);
 
 // 29.words 배열을 쉼표로 구분된 문자열로 변환하세요.
 const words = ["Hello", "World", "JavaScript"];
-const newwords = words.join(',');
+words.join(',');
 console.log(words);
 
 
